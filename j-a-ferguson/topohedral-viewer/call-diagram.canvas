@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"53278fe4cdd3ed4a","type":"group","x":-1480,"y":-540,"width":2500,"height":900,"label":"startup"},
+		{"id":"518c54544337290d","type":"group","x":-1396,"y":-1442,"width":596,"height":582,"label":"Key"},
+		{"id":"128e396f9a9e526e","type":"text","text":"``topohedral-viewer-rpc``","x":-600,"y":-160,"width":405,"height":60,"color":"4"},
+		{"id":"0714512c0dfb711e","type":"text","text":"``event_loop.run_app()``","x":580,"y":-280,"width":420,"height":50},
+		{"id":"7b556054ead6d7f1","type":"text","text":"``TopoViewer::new()``","x":580,"y":-80,"width":320,"height":60},
+		{"id":"28a241264895f8af","type":"text","text":"``app::run_topoviewer()``","x":20,"y":-160,"width":367,"height":60},
+		{"id":"04595e9fc5e74353","type":"text","text":"TopoViewerOptions\n- mode\n- with_rpc","x":-1020,"y":-195,"width":320,"height":130,"color":"6"},
+		{"id":"2e20bcd7f00bdbae","type":"text","text":"External Source","x":-1233,"y":-1337,"width":257,"height":42,"color":"1"},
+		{"id":"d1d53bf64e5c69c5","type":"text","text":"Data","x":-1233,"y":-1260,"width":230,"height":50,"color":"6"},
+		{"id":"b8ed35b5b435c6ea","type":"text","text":"Binary","x":-1228,"y":-1163,"width":225,"height":49,"color":"4"},
+		{"id":"0be50813274304a7","type":"text","text":"Command Line","x":-1780,"y":-20,"width":180,"height":50,"color":"1"},
+		{"id":"7b31d5d4df5977a7","type":"text","text":"Other Code","x":-1780,"y":-273,"width":200,"height":78,"color":"1"},
+		{"id":"4eb6c1a36f9584a2","x":-1228,"y":-1080,"width":188,"height":61,"type":"text","text":"Function"}
+	],
+	"edges":[
+		{"id":"167f426b37354b9e","fromNode":"128e396f9a9e526e","fromSide":"right","toNode":"28a241264895f8af","toSide":"left","label":"calls"},
+		{"id":"7e433fa47fb6efee","fromNode":"28a241264895f8af","fromSide":"right","toNode":"0714512c0dfb711e","toSide":"left","label":"calls"},
+		{"id":"e69794eb3f6cff52","fromNode":"28a241264895f8af","fromSide":"right","toNode":"7b556054ead6d7f1","toSide":"left","label":"calls\n"},
+		{"id":"d76063ce87d51ced","fromNode":"04595e9fc5e74353","fromSide":"right","toNode":"128e396f9a9e526e","toSide":"left","label":"input"},
+		{"id":"3480fa826c17396d","fromNode":"0be50813274304a7","fromSide":"right","toNode":"04595e9fc5e74353","toSide":"left","color":"1","label":"constructed from"},
+		{"id":"7e84e3b51c28a6c5","fromNode":"7b31d5d4df5977a7","fromSide":"right","toNode":"04595e9fc5e74353","toSide":"left","color":"1","label":"constructed from"},
+		{"id":"af025e5e5d6dcd79","fromNode":"04595e9fc5e74353","fromSide":"bottom","toNode":"28a241264895f8af","toSide":"bottom","label":"input"},
+		{"id":"06a64d70410ef6e0","fromNode":"7b31d5d4df5977a7","fromSide":"right","toNode":"28a241264895f8af","toSide":"top","label":"calls"}
+	]
+}
