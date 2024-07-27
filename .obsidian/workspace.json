@@ -11,14 +11,11 @@
             "id": "808e752d09873ab5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "j-a-ferguson/topohedral-viewer/call-diagram.canvas",
-                "viewState": {
-                  "x": -521.1450214131401,
-                  "y": 112.93491518405779,
-                  "zoom": -0.7933333333333333
-                }
+                "file": "j-a-ferguson/topohedral-tracing/purpose.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "j-a-ferguson/topohedral-viewer/call-diagram.canvas",
+                "file": "j-a-ferguson/topohedral-tracing/purpose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "j-a-ferguson/topohedral-viewer/call-diagram.canvas",
+                "file": "j-a-ferguson/topohedral-tracing/purpose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "j-a-ferguson/topohedral-viewer/call-diagram.canvas"
+                "file": "j-a-ferguson/topohedral-tracing/purpose.md"
               }
             }
           }
@@ -151,8 +148,11 @@
   },
   "active": "808e752d09873ab5",
   "lastOpenFiles": [
-    "j-a-ferguson/debugging.md",
+    "j-a-ferguson/vscode-extension.md",
+    "j-a-ferguson/topohedral-tracing/purpose.md",
+    "j-a-ferguson/topohedral-tracing",
     "j-a-ferguson/topohedral-viewer/call-diagram.canvas",
+    "j-a-ferguson/debugging.md",
     "j-a-ferguson/topohedral-viewer",
     "README.md",
     "j-a-ferguson"
